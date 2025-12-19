@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ThrivedLogo from "@/components/ThrivedLogo";
 
 const Footer = () => {
   const footerLinks = {
@@ -15,7 +16,6 @@ const Footer = () => {
       "Market Reports",
       "Blog",
       "FAQ",
-      "Testimonials",
     ],
   };
 
@@ -31,11 +31,8 @@ const Footer = () => {
         >
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-6">
-              <span className="text-2xl font-display font-bold text-primary-foreground">
-                Thrived
-              </span>
-              <span className="h-2 w-2 rounded-full bg-secondary" />
+            <a href="#" className="flex items-center mb-6">
+              <ThrivedLogo className="h-7 w-auto" variant="light" />
             </a>
             <p className="text-primary-foreground/70 mb-6 max-w-sm leading-relaxed">
               Expert commercial property management that maximizes your
