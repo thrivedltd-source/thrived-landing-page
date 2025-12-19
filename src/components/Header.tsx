@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import ThrivedLogo from "@/components/ThrivedLogo";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,6 +18,7 @@ const Header = () => {
   const navLinks = [
     { name: "Services", href: "#services" },
     { name: "About", href: "#about" },
+    { name: "Testimonials", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -35,11 +35,11 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center">
-          <ThrivedLogo 
-            className="h-7 w-auto" 
-            variant={isScrolled ? "dark" : "light"} 
-          />
+        <a href="#" className="flex items-center gap-2">
+          <span className="text-2xl font-display font-bold text-foreground">
+            Thrived
+          </span>
+          <span className="h-2 w-2 rounded-full bg-secondary" />
         </a>
 
         {/* Desktop Navigation */}
