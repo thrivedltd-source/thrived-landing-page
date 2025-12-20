@@ -12,7 +12,7 @@ const About = () => {
   ];
 
   const stats = [
-    { value: "$2B+", label: "Assets Under Management" },
+    { value: "£100M+", label: "Assets Under Management" },
     { value: "15+", label: "Years of Experience" },
     { value: "50+", label: "Commercial Properties" },
     { value: "24/7", label: "Support Available" },
