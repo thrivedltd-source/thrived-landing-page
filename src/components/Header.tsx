@@ -59,9 +59,6 @@ const Header = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="navOutline" size="sm">
-            Call Us
-          </Button>
           <Button variant="gold" size="sm">
             Get Started
           </Button>
@@ -100,9 +97,6 @@ const Header = () => {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-4 border-t border-border">
-              <Button variant="navOutline" className="w-full">
-                Call Us
-              </Button>
               <Button variant="gold" className="w-full">
                 Get Started
               </Button>
