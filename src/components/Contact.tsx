@@ -5,22 +5,10 @@ import { ArrowRight, Phone, Mail, MapPin } from "lucide-react";
 const Contact = () => {
   const contactInfo = [
     {
-      icon: Phone,
-      label: "Call Us",
-      value: "(555) 123-4567",
-      href: "tel:+15551234567",
-    },
-    {
       icon: Mail,
       label: "Email Us",
       value: "info@thrived.com",
       href: "mailto:info@thrived.com",
-    },
-    {
-      icon: MapPin,
-      label: "Visit Us",
-      value: "123 Business District, Suite 500",
-      href: "#",
     },
   ];
 
