@@ -36,7 +36,9 @@ const Header = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <span className="text-2xl font-display font-bold text-white">
+          <span className={`text-2xl font-display font-bold transition-colors duration-300 ${
+            isScrolled ? "text-navy" : "text-white"
+          }`}>
             Thrived
           </span>
           <span className="h-2 w-2 rounded-full bg-secondary" />
