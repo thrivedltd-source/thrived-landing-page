@@ -36,8 +36,8 @@ const Header = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <span className="text-2xl font-display font-bold text-foreground">
-            while
+          <span className="text-2xl font-display font-bold text-white">
+            Thrived
           </span>
           <span className="h-2 w-2 rounded-full bg-secondary" />
         </a>
