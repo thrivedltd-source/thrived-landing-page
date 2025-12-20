@@ -37,7 +37,7 @@ const Header = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <span className="text-2xl font-display font-bold text-foreground">
-            Thrived
+            while
           </span>
           <span className="h-2 w-2 rounded-full bg-secondary" />
         </a>
