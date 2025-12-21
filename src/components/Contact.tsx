@@ -81,7 +81,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="grid md:grid-cols-3 gap-8 mt-16"
+            className="flex justify-center mt-16"
           >
             {contactInfo.map((info) => (
               <a
