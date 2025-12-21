@@ -83,13 +83,10 @@ const Hero = () => {
           }} transition={{
             duration: 0.6,
             delay: 0.5
-          }} className="flex flex-wrap gap-4">
+          }}>
               <Button variant="hero" size="xl">
                 Get a Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button variant="heroOutline" size="xl">
-                View Our Portfolio
               </Button>
             </motion.div>
           </div>
