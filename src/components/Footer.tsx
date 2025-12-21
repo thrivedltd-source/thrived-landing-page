@@ -34,38 +34,15 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links Columns */}
+          {/* Address Column */}
           <div>
-            <h4 className="text-primary-foreground font-semibold mb-4">Address
-
-
-124 City Rd
-
-
-London
-
-
-EC1 2NX
-
-
-info@thrived.uk</h4>
-            <ul className="space-y-3">
-              {footerLinks.services.map(link => {})}
-            </ul>
-          </div>
-
-          <div>
-            
-            <ul className="space-y-3">
-              {footerLinks.company.map(link => {})}
-            </ul>
-          </div>
-
-          <div>
-            
-            <ul className="space-y-3">
-              {footerLinks.resources.map(link => {})}
-            </ul>
+            <h4 className="text-primary-foreground font-semibold mb-4">Address</h4>
+            <div className="text-primary-foreground/70 space-y-1 text-sm">
+              <p>124 City Rd</p>
+              <p>London</p>
+              <p>EC1 2NX</p>
+              <p className="mt-4">info@thrived.uk</p>
+            </div>
           </div>
         </motion.div>
 
