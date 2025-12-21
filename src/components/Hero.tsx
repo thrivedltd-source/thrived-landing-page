@@ -102,12 +102,7 @@ const Hero = () => {
           duration: 0.8,
           delay: 0.6
         }} className="hidden lg:grid grid-cols-1 gap-6">
-            {stats.map((stat, index) => (
-              <div key={index} className="bg-background/10 backdrop-blur-sm rounded-xl p-4 border border-border/20">
-                <p className="text-2xl font-bold text-primary-foreground">{stat.value}</p>
-                <p className="text-sm text-primary-foreground/70">{stat.label}</p>
-              </div>
-            ))}
+            {stats.map((stat, index) => {})}
           </motion.div>
         </div>
       </div>
