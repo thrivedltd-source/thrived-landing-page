@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Address Column */}
           <div>
-            <h4 className="text-primary-foreground font-semibold mb-4">Address</h4>
+            <h4 className="text-primary-foreground font-semibold mb-4">Contact</h4>
             <div className="text-primary-foreground/70 space-y-1 text-sm">
               <p>124 City Rd</p>
               <p>London</p>
