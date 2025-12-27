@@ -14,7 +14,7 @@ const About = () => {
   const stats = [
     { value: "£50M+", label: "Assets Under Management" },
     { value: "15+", label: "Years of Experience" },
-    { value: "50+", label: "Commercial Properties" },
+    { value: "30+", label: "Commercial Properties" },
     { value: "24/7", label: "Support Available" },
   ];
 
