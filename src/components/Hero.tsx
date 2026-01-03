@@ -69,9 +69,7 @@ const Hero = () => {
             duration: 0.6,
             delay: 0.4
           }} className="text-lg text-primary-foreground/80 mb-8 leading-relaxed">
-              Expert commercial property management that maximizes your investment
-              returns. We handle everything from tenant relations to maintenance,
-              so you can focus on growth.
+              Expert commercial property management that maximizes your investment returns. We handle everything from tenant relations to maintenance, so your investments can provide the growth you need.          
             </motion.p>
 
             <motion.div initial={{
