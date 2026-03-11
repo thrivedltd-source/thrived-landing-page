@@ -14,7 +14,7 @@ const Services = () => {
       icon: Building,
       title: "Property Leasing",
       description:
-        "Strategic marketing and tenant screening to fill vacancies with quality tenants quickly and efficiently.",
+        "We connect you with our Trusted Network for strategic marketing and tenant screening to fill vacancies with quality tenants quickly and efficiently.",
     },
     {
       icon: ClipboardCheck,
