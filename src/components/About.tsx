@@ -6,7 +6,7 @@ const About = () => {
   "Years of commercial property experience",
   "Local market expertise with national resources",
   "Transparent communication and reporting",
-  "Dedicated property managers for each account",
+  "Dedicated time spent on each account",
   "Technology-driven operations and analytics",
   "Proven track record of maximizing ROI"];
 
