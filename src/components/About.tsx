@@ -19,8 +19,8 @@ const About = () => {
 
 
   return (
-    <section id="about" className="py-24 bg-muted/30">
-      <div className="container mx-auto px-6">
+    <section id="about" className="py-24 bg-muted/30 w-full">
+      <div className="w-full px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Content */}
           <motion.div
