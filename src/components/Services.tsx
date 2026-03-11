@@ -20,7 +20,7 @@ const Services = () => {
       icon: ClipboardCheck,
       title: "Lease Administration",
       description:
-        "Comprehensive lease management including renewals, rent collection, and compliance monitoring.",
+        "Comprehensive lease management including renewals, rent reviews, and scope of lease.",
     },
     {
       icon: DollarSign,
