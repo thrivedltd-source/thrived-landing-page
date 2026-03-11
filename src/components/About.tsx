@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 const About = () => {
   const benefits = [
-  "Over 15 years of commercial property experience",
+  "Years of commercial property experience",
   "Local market expertise with national resources",
   "Transparent communication and reporting",
   "Dedicated property managers for each account",
